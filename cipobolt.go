@@ -5,7 +5,7 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/boltdb/bolt"
+	"github.com/coreos/bbolt"
 )
 
 // EncFun is an encoder function type for encoding the types
