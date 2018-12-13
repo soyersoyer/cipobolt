@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/coreos/bbolt"
+	bolt "github.com/etcd-io/bbolt"
 )
 
 type Data struct {
